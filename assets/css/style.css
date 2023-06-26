@@ -10,9 +10,18 @@
 body {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
+    color: #161520;
 }
 
 h1,
 h2 {
     font-family: 'Caprasimo', cursive;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #212121;
+}
+
+#logo {
+    float: left;
+    font-size: 275%;
 }
