@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Ubuntu:wght@300&display=swap');
 
- /* remove default padding, margins and border on all elements */
-*{
+/* remove default padding, margins and border on all elements */
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -9,7 +9,10 @@
 }
 
 
-p, li, a, button {
+p,
+li,
+a,
+button {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
     font-size: 18px;
@@ -29,9 +32,9 @@ h2 {
 
 header {
     display: flex;
-    justify-content:flex-end;
+    justify-content: flex-end;
     align-items: center;
-    padding: 30px 10%;
+    padding: 30px 5%;
 }
 
 .logo {
@@ -39,13 +42,19 @@ header {
     margin-right: auto;
 }
 
+.logo p {
+    text-align: center;
+    font-size: .8rem;
+}
+
+/* naviation links */
 .nav-links {
     list-style: none;
 }
 
 .nav-links li {
     display: inline-block;
-    padding: 0 20px;
+    padding: 0 5px;
 }
 
 .nav-links li a {
@@ -53,42 +62,34 @@ header {
 }
 
 .nav-links li a:hover {
-    color: #0088a9;
+    color: #2B0133;
 }
 
+li a,
 button {
     margin-left: 20px;
     padding: 9px 25px;
-    background-color: rgba(0, 136, 169, 1);
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all .3s ease 0s;
 }
 
+li a:hover,
 button:hover {
-    background-color: rgba(0, 136, 169, .8);
-}
-/* naviation links */
-
-
-.nav-list a:hover {
-    border-bottom: 1px solid #212121;
+    background-color: #FEF47B;
 }
 
-.active {
-    border-bottom: 1px solid #212121;
-}
 
 /* hero-image */
 
-#hero-outer {
+.hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
 }
 
-#hero-image {
+.hero-image {
     height: 600px;
     width: 100%;
     background: url(/assets/images/hero-image4.jpeg) no-repeat center center;
@@ -99,8 +100,6 @@ button:hover {
     animation-duration: 5s;
     animation-fill-mode: backwards;
 }
-
-
 
 
 /* creates the level of zoom for hero image */
@@ -116,10 +115,8 @@ button:hover {
 
 /* about section */
 
-#about-section {
-    height: 600px;
-}
-#about-image {
+
+.about-image {
     height: 300px;
     width: 300px;
     margin: 30px;
@@ -127,44 +124,4 @@ button:hover {
     border: 1px solid #ccc;
     border-radius: 50%;
     margin: 30px;
-}
-
-#about-left {
-    margin-left: 30px;
-    padding-top: 30px;
-    width: 40%;
-    float: left;
-    line-height: 20px;
-}
-
-#about-right {
-    margin-right: 30px;
-    padding-top: 30px;
-    width: 60%;
-    float: right;
-    line-height: 20px;
-}
-
-#about-image1 {
-    padding: 30px;
-    width: 20%;
-    float: right;
-}
-
-#about-image2 {
-    width: 20%;
-    padding: 15px;
-    float: left;
-}
-
-#about-image3 {
-    padding: 30px;
-    width: 20%;
-    margin: 0 auto;
-}
-
-#about {
-    text-align: center;
-    margin: 30px 0;
-    font-size: 270%;
 }
