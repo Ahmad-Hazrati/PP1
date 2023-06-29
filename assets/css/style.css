@@ -185,6 +185,7 @@ section {
 .heading {
     text-align: center;
     margin-bottom: px;
+    background-color: white;
 }
 
 .product .product-row {
