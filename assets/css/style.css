@@ -34,12 +34,16 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 25px 5%;
+    padding: 20px 5%;
 }
 
 .logo {
     cursor: pointer;
     margin-right: auto;
+}
+
+.logo h1 {
+    font-size: 250%;
 }
 
 .logo p {
@@ -96,20 +100,20 @@ button:hover {
     background-size: cover;
 
     /* animates zoom effect on loading page */
-    animation-name: hero-zoomout;
+    animation-name: hero-zoom;
     animation-duration: 5s;
-    animation-fill-mode: backwards;
+    animation-fill-mode: inwards;
 }
 
 
 /* creates the level of zoom for hero image */
-@keyframes hero-zoomout {
+@keyframes hero-zoom {
     from {
-        transform: scale(1.1);
+        transform: scale(1);
     }
 
     to {
-        transform: scale(1);
+        transform: scale(1.1);
     }
 }
 
@@ -117,52 +121,147 @@ button:hover {
 
 h2 {
     text-align: center;
-    padding: 25px;
+    font-size: 250%;
+    margin: 25px 0;
+    padding: 25px 5%;
 }
 
 .about {
     align-items: center;
     padding: 25px 5%;
 }
-    
-
 
 .about .about-paragraph {
-    height: 600px;
+    height: 300px;
     width: 30%;
     float: left;
-    text-align: justify;
+    padding: 30px 0;
+    text-align: center;
 }
 
 .about-image {
-    height: 600px;
+    height: 300px;
     width: 70%;
     float: right;
-    
 }
+
 .about-image1 {
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     float: left;
-    background: url(/assets/images/hero-image1.jpg);
+    margin-left: 30px;
+    background: url(/assets/images/hero-image1.jpg) no-repeat center center;
+    background-size: cover;
     border: 1px solid #faf8ff;
     border-radius: 50%;
 }
 
 .about-image2 {
-    height: 200px;
-    width: 200px;
-    margin: 0 auto;
-    background: url(/assets/images/hero-image2.jpg);
+    height: 250px;
+    width: 250px;
+    float: right;
+    margin-right: 30px;
+    background: url(/assets/images/hero-image2.jpg) no-repeat center center;
+    background-size: cover;
     border: 1px solid #faf8ff;
     border-radius: 50%;
 }
 
 .about-image3 {
-    height: 200px;
-    width: 200px;
-    float: right;
-    background: url(/assets/images/hero-image3.jpg);
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+    background: url(/assets/images/hero-image4.jpeg) no-repeat center center;
+    background-size: cover;
     border: 1px solid #faf8ff;
     border-radius: 50%;
+}
+
+/* product section  */
+section {
+    padding: 30px 7%;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: px;
+}
+
+.product .product-row {
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.product .product-row .box {
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    background-color: #faf8ff;
+    align-items: center;
+    text-align: center;
+    padding: 32px;
+    gap: 25px;
+    border-radius: 45px;
+    margin-right: 45px;
+}
+
+.product .product-row .img img {
+    height: 400px;
+    width: 400px;
+}
+
+.product .product-row .img img:hover {
+    transform: scale(1.1);
+}
+
+.product .product-row .content {
+    margin-bottom: 60px;
+}
+
+.product .product-row .product-content h3 {
+    font-size: 42px;
+}
+
+.product .product-row .product-content p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.product .product-row .product-content .orderNow {
+    height: 30px;
+    margin: 30px 0;
+}
+
+.product .product-row .product-content .orderNow button {
+    font-size: 18px;
+    background-color: #212121;
+    color: #faf8ff;
+    border-radius: 10px;
+    padding: 10px 32px;
+    cursor: pointer;
+}
+
+.product .product-row .product-content .orderNow button:hover {
+    font-size: 32px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 25px 5%;
+}
+
+.swiper-pagination-bullet {
+    background-color: #212121;
+}
+
+.swiper-button-next {
+    color: #212121;
+}
+
+.swiper-button-prev {
+    color: #212121;
 }
