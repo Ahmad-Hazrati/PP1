@@ -21,7 +21,8 @@ button {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: 'Caprasimo', cursive;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -48,7 +49,7 @@ header {
 
 .logo p {
     text-align: center;
-    font-size: .8rem;
+    font-size: 12px;
 }
 
 /* naviation links */
@@ -65,10 +66,6 @@ header {
     transition: all .3s ease 0s;
 }
 
-.nav-links li a:hover {
-    color: #2B0133;
-}
-
 li a,
 button {
     margin-left: 20px;
@@ -81,7 +78,8 @@ button {
 
 li a:hover,
 button:hover {
-    background-color: #FEF47B;
+    background-color: #212121;
+    color: #faf8ff;
 }
 
 
@@ -91,6 +89,7 @@ button:hover {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    padding: 0 0;
 }
 
 .hero-image {
@@ -119,19 +118,30 @@ button:hover {
 
 /* about section */
 
-h2 {
-    text-align: center;
-    font-size: 250%;
-    margin: 25px 0;
-    padding: 25px 5%;
-}
+
 
 .about {
     align-items: center;
     padding: 25px 5%;
 }
 
-.about .about-paragraph {
+.about h2 {
+    font-family: 'Caprasimo', cursive;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #161520;
+    text-align: center;
+    font-size: 200%;
+    padding: 0 0;
+}
+
+.about .about-box {
+    width: 100%;
+    height: 300px;
+    align-items: center;
+}
+
+.about .paragraph {
     height: 300px;
     width: 30%;
     float: left;
@@ -139,13 +149,15 @@ h2 {
     text-align: center;
 }
 
-.about-image {
+.image {
     height: 300px;
     width: 70%;
     float: right;
+    padding: 30px 0;
+    text-align: center;
 }
 
-.about-image1 {
+.image1 {
     height: 250px;
     width: 250px;
     float: left;
@@ -156,7 +168,7 @@ h2 {
     border-radius: 50%;
 }
 
-.about-image2 {
+.image2 {
     height: 250px;
     width: 250px;
     float: right;
@@ -167,7 +179,7 @@ h2 {
     border-radius: 50%;
 }
 
-.about-image3 {
+.image3 {
     height: 250px;
     width: 250px;
     margin: 0 auto;
@@ -185,7 +197,6 @@ section {
 .heading {
     text-align: center;
     margin-bottom: px;
-    background-color: white;
 }
 
 .product .product-row {
@@ -221,7 +232,13 @@ section {
 }
 
 .product .product-row .product-content h3 {
-    font-size: 42px;
+    font-family: 'Caprasimo', cursive;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #161520;
+    text-align: center;
+    font-size: 150%;
+    padding: 0 0;
 }
 
 .product .product-row .product-content p {
@@ -248,11 +265,90 @@ section {
 }
 
 
-footer {
-    display: flex;
-    justify-content: flex-end;
+/* footer {
     align-items: center;
     padding: 25px 5%;
+}
+footer ul {
+    list-style: none;
+}
+
+
+footer .contact-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    height: vh;
+    padding: 0 5px;
+} */
+
+footer {
+    height: auto;
+    width: 100vw;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h2 {
+    font-family: 'Caprasimo', cursive;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 200%;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font: 18px;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-resolution: 16px 0 48px 0;
+}
+
+.social-links li {
+    margin: 0 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.copyright {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    color: #212121S;
+}
+
+.copyright p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.copyright span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
 }
 
 .swiper-pagination-bullet {
