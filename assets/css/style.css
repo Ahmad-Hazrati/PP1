@@ -95,13 +95,13 @@ button:hover {
 .hero-image {
     height: 600px;
     width: 100%;
-    background: url(/assets/images/hero-image4.jpeg) no-repeat center center;
+    background: url(/assets/images/hero-image1.jpeg) no-repeat center center;
     background-size: cover;
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
     animation-duration: 5s;
-    animation-fill-mode: inwards;
+    animation-fill-mode: forwards;
 }
 
 
@@ -162,7 +162,7 @@ button:hover {
     width: 250px;
     float: left;
     margin-left: 30px;
-    background: url(/assets/images/hero-image1.jpg) no-repeat center center;
+    background: url(/assets/images/ab-image1.jpg) no-repeat center center;
     background-size: cover;
     border: 1px solid #faf8ff;
     border-radius: 50%;
@@ -173,7 +173,7 @@ button:hover {
     width: 250px;
     float: right;
     margin-right: 30px;
-    background: url(/assets/images/hero-image2.jpg) no-repeat center center;
+    background: url(/assets/images/ab-image2.jpg) no-repeat center center;
     background-size: cover;
     border: 1px solid #faf8ff;
     border-radius: 50%;
@@ -183,7 +183,7 @@ button:hover {
     height: 250px;
     width: 250px;
     margin: 0 auto;
-    background: url(/assets/images/hero-image4.jpeg) no-repeat center center;
+    background: url(/assets/images/ab-image3.jpg) no-repeat center center;
     background-size: cover;
     border: 1px solid #faf8ff;
     border-radius: 50%;
@@ -196,7 +196,6 @@ section {
 
 .heading {
     text-align: center;
-    margin-bottom: px;
 }
 
 .product .product-row {
@@ -265,29 +264,7 @@ section {
 }
 
 
-/* footer {
-    align-items: center;
-    padding: 25px 5%;
-}
-footer ul {
-    list-style: none;
-}
-
-
-footer .contact-details {
-    display: flex;
-    align-items: center;
-    margin-bottom: 32px;
-}
-
-.social-links {
-    display: flex;
-    justify-content: flex-end;
-    width: 50%;
-    height: vh;
-    padding: 0 5px;
-} */
-
+/* footer section */
 footer {
     height: auto;
     width: 100vw;
@@ -321,7 +298,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    max-resolution: 16px 0 48px 0;
 }
 
 .social-links li {
@@ -336,7 +312,7 @@ footer {
     width: 100%;
     padding: 20px 0;
     text-align: center;
-    color: #212121S;
+    color: #212121;
 }
 
 .copyright p {
