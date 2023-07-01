@@ -5,7 +5,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #faf8ff;
+    background: url(../images/bg2.avif);
 }
 
 
@@ -132,7 +132,7 @@ button:hover {
     color: #161520;
     text-align: center;
     font-size: 200%;
-    padding: 0 0;
+    padding: 20px 5%;
 }
 
 .about .about-box {
@@ -157,7 +157,8 @@ button:hover {
     text-align: center;
 }
 
-.image1 {
+
+.image .image1 {
     height: 250px;
     width: 250px;
     float: left;
@@ -168,7 +169,11 @@ button:hover {
     border-radius: 50%;
 }
 
-.image2 {
+.image1:hover {
+    transform: scale(1.1);
+}
+
+.image .image2 {
     height: 250px;
     width: 250px;
     float: right;
@@ -179,7 +184,11 @@ button:hover {
     border-radius: 50%;
 }
 
-.image3 {
+.image2:hover {
+    transform: scale(1.1);
+}
+
+.image .image3 {
     height: 250px;
     width: 250px;
     margin: 0 auto;
@@ -187,6 +196,10 @@ button:hover {
     background-size: cover;
     border: 1px solid #faf8ff;
     border-radius: 50%;
+}
+
+.image3:hover {
+    transform: scale(1.1);
 }
 
 /* product section  */
@@ -198,8 +211,18 @@ section {
     text-align: center;
 }
 
+
+.heading h2 {
+    font-family: 'Caprasimo', cursive;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #161520;
+    text-align: center;
+    font-size: 200%;
+    padding: 20px 5%;
+}
+
 .product .product-row {
-    margin-bottom: 80px;
     display: flex;
     align-items: center;
 }
@@ -218,8 +241,9 @@ section {
 }
 
 .product .product-row .img img {
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
+    border-radius: 45px;
 }
 
 .product .product-row .img img:hover {
@@ -284,6 +308,7 @@ footer {
     letter-spacing: 3px;
     text-align: center;
     font-size: 200%;
+    margin-bottom: 30px;
 }
 
 .footer-content p {
