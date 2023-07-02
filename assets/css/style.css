@@ -352,6 +352,14 @@ footer {
     font-weight: 200;
 }
 
+
+/* Order Now page  */
+.form {
+    background: url(../images/img1.jpeg);
+    height: 600px;
+    width: 100%;
+}
+
 .swiper-pagination-bullet {
     background-color: #212121;
 }
