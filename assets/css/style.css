@@ -288,7 +288,7 @@ section {
     margin: 16px auto;
 }
 
-.product .product-row .product-content .orderNow button {
+.product .product-row .product-content .orderNow a {
     background-color: #faf8ff;
     color: #370F05;
     border-radius: 45px;
@@ -296,7 +296,7 @@ section {
     cursor: pointer;
 }
 
-.product .product-row .product-content .orderNow button:hover {
+.product .product-row .product-content .orderNow a:hover {
     color: #faf8ff;
     background-color: #370F05;
 }
