@@ -5,18 +5,18 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background: url(../images/bg2.avif);
+    background-color: #faf8ff;
+    /* background: url(/assets/images/2872157_7205.jpg); */
 }
 
 
-p,
-li,
+p li,
 a,
 button {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
-    font-size: 18px;
-    color: #212121;
+    font-size: 21px;
+    color: #370F05;
     text-decoration: none;
 }
 
@@ -26,7 +26,13 @@ h3 {
     font-family: 'Caprasimo', cursive;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #161520;
+    color: #212121;
+}
+
+h2 {
+    text-align: center;
+    font-size: 200%;
+    padding: 20px 5%;
 }
 
 /* headings and logo */
@@ -35,7 +41,7 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 20px 5%;
+    padding: 25px 5%;
 }
 
 .logo {
@@ -49,7 +55,7 @@ header {
 
 .logo p {
     text-align: center;
-    font-size: 12px;
+    font-size: 18px;
 }
 
 /* naviation links */
@@ -78,15 +84,15 @@ button {
 
 li a:hover,
 button:hover {
-    background-color: #212121;
     color: #faf8ff;
+    background-color: #370F05;
 }
 
 
 /* hero-image */
 
 .hero-outer {
-    height: 600px;
+    height: 700px;
     width: 100%;
     overflow: hidden;
     padding: 0 0;
@@ -95,7 +101,7 @@ button:hover {
 .hero-image {
     height: 600px;
     width: 100%;
-    background: url(/assets/images/hero-image1.jpeg) no-repeat center center;
+    background: url(/assets/images/indulgent-chocolate-dessert-with-fresh-fruit-decoration-generative-ai.jpg) no-repeat center center;
     background-size: cover;
 
     /* animates zoom effect on loading page */
@@ -129,7 +135,7 @@ button:hover {
     font-family: 'Caprasimo', cursive;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #161520;
+    color: #212121;
     text-align: center;
     font-size: 200%;
     padding: 20px 5%;
@@ -147,6 +153,7 @@ button:hover {
     float: left;
     padding: 30px 0;
     text-align: center;
+    line-height: 1.5;
 }
 
 .image {
@@ -163,9 +170,9 @@ button:hover {
     width: 250px;
     float: left;
     margin-left: 30px;
-    background: url(/assets/images/ab-image1.jpg) no-repeat center center;
+    background: url(/assets/images/mud-cake-jaffa1.jpg) no-repeat center center;
     background-size: cover;
-    border: 1px solid #faf8ff;
+    border: 1px solid #3c1321;
     border-radius: 50%;
 }
 
@@ -178,9 +185,9 @@ button:hover {
     width: 250px;
     float: right;
     margin-right: 30px;
-    background: url(/assets/images/ab-image2.jpg) no-repeat center center;
+    background: url(/assets/images/vanilla1.jpg) no-repeat center center;
     background-size: cover;
-    border: 1px solid #faf8ff;
+    border: 1px solid #3c1321;
     border-radius: 50%;
 }
 
@@ -192,9 +199,9 @@ button:hover {
     height: 250px;
     width: 250px;
     margin: 0 auto;
-    background: url(/assets/images/ab-image3.jpg) no-repeat center center;
+    background: url(/assets/images/mud-cake-caramel2.jpg) no-repeat center center;
     background-size: cover;
-    border: 1px solid #faf8ff;
+    border: 1px solid #3c1321;
     border-radius: 50%;
 }
 
@@ -204,7 +211,7 @@ button:hover {
 
 /* product section  */
 section {
-    padding: 30px 7%;
+    padding: 25px 5%;
 }
 
 .heading {
@@ -216,7 +223,7 @@ section {
     font-family: 'Caprasimo', cursive;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #161520;
+    color: #212121;
     text-align: center;
     font-size: 200%;
     padding: 20px 5%;
@@ -231,102 +238,110 @@ section {
     display: flex;
     flex-direction: column;
     width: 420px;
-    background-color: #faf8ff;
+    background-color: #370F05;
     align-items: center;
     text-align: center;
     padding: 32px;
     gap: 25px;
     border-radius: 45px;
-    margin-right: 45px;
+    margin: 32px auto;
 }
 
-.product .product-row .img img {
+.product .product-row .box .img {
     height: 350px;
     width: 350px;
     border-radius: 45px;
 }
 
-.product .product-row .img img:hover {
+.product .product-row .box .img img {
+    height: 350px;
+    width: 350px;
+    border-radius: 45px;
+}
+
+.product .product-row .box .img img:hover {
     transform: scale(1.1);
 }
 
-.product .product-row .content {
-    margin-bottom: 60px;
+.product .product-row .product-content {
+    margin: 16px;
+    border-radius: 5px;
+    padding: 16px 5%;
 }
 
 .product .product-row .product-content h3 {
     font-family: 'Caprasimo', cursive;
-    text-transform: uppercase;
+    text-transform: capitalize;
     letter-spacing: 3px;
-    color: #161520;
+    color: #212121;
     text-align: center;
-    font-size: 150%;
-    padding: 0 0;
+    font-size: 130%;
+    padding: 20px 5%;
+    border-radius: 5px;
 }
 
 .product .product-row .product-content p {
-    font-size: 18px;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 .product .product-row .product-content .orderNow {
     height: 30px;
-    margin: 30px 0;
+    margin: 16px auto;
 }
 
 .product .product-row .product-content .orderNow button {
-    font-size: 18px;
-    background-color: #212121;
-    color: #faf8ff;
-    border-radius: 10px;
+    background-color: #faf8ff;
+    color: #370F05;
+    border-radius: 45px;
     padding: 10px 32px;
     cursor: pointer;
 }
 
 .product .product-row .product-content .orderNow button:hover {
-    font-size: 32px;
+    color: #faf8ff;
+    background-color: #370F05;
 }
 
 
 /* footer section */
-footer {
-    height: auto;
-    width: 100vw;
-}
 
 .footer-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
     flex-direction: column;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 5%;
 }
 
-.footer-content h2 {
+.contact h2 {
     font-family: 'Caprasimo', cursive;
     text-transform: uppercase;
     letter-spacing: 3px;
+    color: #212121;
     text-align: center;
     font-size: 200%;
-    margin-bottom: 30px;
+    padding: 20px 5%;
 }
 
-.footer-content p {
-    max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
-    font: 18px;
-}
-
-.social-links {
-    list-style: none;
+.contact-number {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.social-links li {
-    margin: 0 10px;
+
+.address {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
 }
 
 .social-links a {
@@ -348,20 +363,86 @@ footer {
 
 .copyright span {
     text-transform: uppercase;
-    opacity: .4;
+    opacity: .7;
     font-weight: 200;
+    color: #212121;
 }
 
 
 /* Order Now page  */
-.form {
-    background: url(../images/img1.jpeg);
-    height: 600px;
-    width: 100%;
+.form-section {
+    clear: left;
+    background: url(../images/form_bg.jpg) no-repeat center center;
+    background-size: cover;
+    height: 1200px;
 }
 
-.swiper-pagination-bullet {
-    background-color: #212121;
+.order-form {
+    margin: 25px 10% 0 0;
+    color: #212121;
+    background-color: rgba(106, 107, 111, .60);
+    max-width: 600px;
+    margin: auto auto;
+    left: 10%;
+    padding: 25px;
+}
+
+.order-form p {
+    margin-bottom: 25px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.order-form hr {
+    margin: 25px 0;
+}
+
+
+
+.form-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-row-end: auto;
+    background: transparent;
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+.input-text {
+    color: #212121;
+    width: 100%;
+    height: 20px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #212121;
+    border-radius: 2px;
+    background: transparent;
+}
+
+.text-input:hover {
+    border-color: #3c1321;
+}
+
+.order-form .button {
+    margin-top: auto 16px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: transparent;
+    color: #212121;
+}
+
+.button:hover {
+    background-color: #370F05;
+    color: #faf8ff;
+}
+
+/* .swiper-pagination-bullet {
+    /* background-color: #faf8ff;
 }
 
 .swiper-button-next {
@@ -370,4 +451,4 @@ footer {
 
 .swiper-button-prev {
     color: #212121;
-}
+} */
