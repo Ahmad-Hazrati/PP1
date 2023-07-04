@@ -5,9 +5,15 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #faf8ff;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url(/assets/images/2872157_7205.jpg);
+}
 
 p,
 li,
@@ -26,7 +32,7 @@ h3 {
     font-family: 'Caprasimo', cursive;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #212121;
+    color: #000;
 }
 
 h2 {
@@ -55,7 +61,7 @@ header {
 
 .logo p {
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /* naviation links */
@@ -88,6 +94,10 @@ button:hover {
     background-color: #370F05;
 }
 
+.active {
+    color: #faf8ff;
+    background-color: #370F05;
+}
 
 /* hero-image */
 
@@ -134,7 +144,7 @@ button:hover {
     font-family: 'Caprasimo', cursive;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #212121;
+    color: #000;
     text-align: center;
     font-size: 200%;
     padding: 20px 5%;
@@ -222,7 +232,7 @@ section {
     font-family: 'Caprasimo', cursive;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #212121;
+    color: #000;
     text-align: center;
     font-size: 200%;
     padding: 20px 5%;
@@ -269,10 +279,11 @@ section {
 }
 
 .product .product-row .product-content h3 {
+    height: 110px;
     font-family: 'Caprasimo', cursive;
     text-transform: capitalize;
     letter-spacing: 3px;
-    color: #212121;
+    color: #faf8ff;
     text-align: center;
     font-size: 130%;
     padding: 20px 5%;
@@ -280,12 +291,14 @@ section {
 }
 
 .product .product-row .product-content p {
+    height: 130px;
     line-height: 1.5;
+    color: #faf8ff;
 }
 
 .product .product-row .product-content .orderNow {
     height: 30px;
-    margin: 16px auto;
+    margin: 32px auto 16px auto;
 }
 
 .product .product-row .product-content .orderNow a {
@@ -315,7 +328,7 @@ footer h2 {
     font-family: 'Caprasimo', cursive;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #212121;
+    color: #000;
     text-align: center;
     font-size: 200%;
     padding: 20px 5%;
@@ -336,7 +349,7 @@ footer h2 {
     width: 100%;
     padding: 20px 0;
     text-align: center;
-    color: #212121;
+    color: #000;
 }
 
 .copyright p {
@@ -347,9 +360,9 @@ footer h2 {
 
 .copyright span {
     text-transform: uppercase;
-    opacity: .7;
+    opacity: .6;
     font-weight: 200;
-    color: #212121;
+    color: #000;
 }
 
 
@@ -363,8 +376,8 @@ footer h2 {
 
 .order-form {
     margin: auto auto;
-    color: #212121;
-    background-color: rgba(106, 107, 111, .60);
+    color: #000;
+    background-color: rgba(106, 107, 111, .70);
     max-width: 600px;
     left: 10%;
     padding: 25px;
@@ -394,12 +407,13 @@ footer h2 {
     background-color: transparent;
 }
 
-.input-text {
-    color: #212121;
+.input-text, .input-text:placeholder-shown{
+    color: #000;
     width: 100%;
     height: 20px;
     margin: 5px 20px 20px 0;
-    border: 1px solid #212121;
+    padding: 10px 5px;
+    border: 1px solid #000;
     border-radius: 2px;
     background: transparent;
 }
@@ -415,22 +429,10 @@ footer h2 {
     text-align: center;
     font-size: 100%;
     background-color: transparent;
-    color: #212121;
+    color: #000;
 }
 
 .button:hover {
     background-color: #370F05;
     color: #faf8ff;
 }
-
-/* .swiper-pagination-bullet {
-    /* background-color: #faf8ff;
-}
-
-.swiper-button-next {
-    color: #212121;
-}
-
-.swiper-button-prev {
-    color: #212121;
-} */
