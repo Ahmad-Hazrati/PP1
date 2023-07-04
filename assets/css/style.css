@@ -379,6 +379,7 @@ footer h2 {
     color: #000;
     background-color: rgba(106, 107, 111, .70);
     max-width: 600px;
+    height: auto;
     left: 10%;
     padding: 25px;
 }
@@ -407,7 +408,7 @@ footer h2 {
     background-color: transparent;
 }
 
-.input-text, .input-text:placeholder-shown{
+.input-text, ::placeholder {
     color: #000;
     width: 100%;
     height: 20px;
@@ -417,6 +418,11 @@ footer h2 {
     border-radius: 2px;
     background: transparent;
 }
+
+input#image {
+    padding: 0;
+}
+
 
 .text-input:hover {
     border-color: #3c1321;
