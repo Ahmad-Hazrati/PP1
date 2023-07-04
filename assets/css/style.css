@@ -423,7 +423,6 @@ input#image {
     padding: 0;
 }
 
-
 .text-input:hover {
     border-color: #3c1321;
 }
@@ -441,4 +440,12 @@ input#image {
 .button:hover {
     background-color: #370F05;
     color: #faf8ff;
+}
+
+
+/* order response section  */
+.response {
+    height: 350px;
+    text-align: center;
+    align-items: center;
 }
