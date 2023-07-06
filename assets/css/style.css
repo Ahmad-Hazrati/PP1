@@ -496,18 +496,17 @@ input#image {
     height: 350px;
     text-align: center;
     align-items: center;
+    padding: 10rem 0 0 0;
 }
 
 
 /* Media queries */
 
 @media screen and (min-width: 950px) {
-
     /* header section */
     .nav-toggle-label {
         display: none;
     }
-
     header {
         display: grid;
         grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
@@ -632,8 +631,6 @@ input#image {
 }
 
 @media screen and (max-width: 780px) {
-
-    /* hero image section */
     .hero-image {
         display: none;
     }
