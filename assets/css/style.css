@@ -459,7 +459,6 @@ footer h2 {
 ::placeholder {
     color: #000;
     width: 100%;
-    height: 20px;
     margin: 5px 20px 20px 0;
     padding: 10px 5px;
     border: 1px solid #000;
@@ -503,10 +502,12 @@ input#image {
 /* Media queries */
 
 @media screen and (min-width: 950px) {
+
     /* header section */
     .nav-toggle-label {
         display: none;
     }
+
     header {
         display: grid;
         grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
