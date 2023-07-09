@@ -8,7 +8,7 @@ City Cake is a site that is developed to provide ease of access to users/ custom
 
 - __Navigation Bar__
 
-  - Featured on all sections and 3 pages, the full responsive fixed navigation bar includes links to the Logo, Home page with its different sections, Order and Order response page and is identical in each page to allow for easy navigation. The navigation bar collapse like an hamburger to give the user a good experience and provide ease of access.
+  - Featured on all sections and 3 pages, the full responsive fixed navigation bar includes links to the Logo, Home page with its different sections, Order and Order response page and is identical in each page to allow for easy navigation. The navigation bar collapse like an hamburger to give the user a good experience and provide ease of access for mobile user.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
 ![Nav Bar desktop view](/assets/images/City_cake_nav_desktop_view.png)
@@ -32,7 +32,7 @@ City Cake is a site that is developed to provide ease of access to users/ custom
 
   - This section will allow the user to see exactly the types of cakes offered by City Cake for different variety of occasions. 
   - This section will be updated regularly to keep the user up to date and meet their demands. 
-  - This section will provide the user with a link to place order besides having the possibility in the navigation bar as well.
+  - This section will provide the user with an easy link to place order besides having the possibility in the navigation bar as well.
 
 ![Product](/assets/images/City_cake_product.png)
 
@@ -51,15 +51,16 @@ City Cake is a site that is developed to provide ease of access to users/ custom
 
 ![Order](/assets/images/City_cake_form.png)
 
-This site is developed with the use of HTML and CSS with a minor coding of JavaScript for product page swiper. The site contains the full functionality front-end of a web with a better user experience.
+This site is developed with the use of HTML and CSS with a minor coding of JavaScript for product page swiper. The site contains the full functionality front-end of a web with a better user experience by adopting different screen sizes.
 
 ### Features Left to Implement
 
-- As this site is static, further enhancements and features are required to process the user data.
+- As this site is static, further enhancements and features are required to interact, get and process the user data.
 - Further features to implement are:
   - Include the product ingredients and price
   - Filtering options
-  - Review page
+  - Add shopping cart
+  - Add review page
   - Store the user data in a database
   - Secure credit card payment process
 
@@ -68,19 +69,8 @@ This site is developed with the use of HTML and CSS with a minor coding of JavaS
 - This site is checked for any potential error in different browers and in different screen sizes. 
 - Google chrome lighthouse is used to check and generate a comprehensive report regarding the site's performance, accessibility, best practices and SEO with taking both mobile and desktop view into consideration and and all rated above 90%. 
 
-- Lighthosue destkop view report 
-- Lighthouse mobile view reprot
-
-
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+- [Lighthouse report desktop view](/lighthouse_report_desktop_view.html)
+- [Lighthouse report mobile view](/lighthouse_report_mobile_view.html)
 
 ### Validator Testing 
 
