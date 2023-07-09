@@ -50,16 +50,27 @@ City Cake is a site that is developed to provide ease of access to users/ custom
 
 ![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+This site is developed with the use of HTML and CSS with a minor coding of JavaScript for product page swiper. The site contains the full functionality front-end of a web with a better user experience.
 
 ### Features Left to Implement
 
-- The site fulfills 
+- As this site is static, further enhancements and features are required to process the user data.
+- Further features to implement are:
+  - Include the product ingredients and price
+  - Filtering options
+  - Review page
+  - Store the user data in a database
+  - Secure credit card payment process
 
 ## Testing 
+
+- This site is checked for any potential error in different browers and in different screen sizes. 
+- Google chrome lighthouse is used to check and generate a comprehensive report regarding the site's performance, accessibility, best practices and SEO with taking both mobile and desktop view into consideration and and all rated above 90%. 
+
+- Lighthosue destkop view report 
+- Lighthouse mobile view reprot
+
+
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -101,14 +112,17 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- The text for the Home page was taken from [Google Images ](https://www.google.com/)
+- Instructions on coding of response navigation bar without JavaScript are taken from [Kevin Powell Youtube Tutorial](https://www.youtube.com/watch?v=8QKOaTYvYUA/)
+- Instructions on JavaScript coding for swiper of product section are taken from [UIUX - Din Art's](https://www.youtube.com/watch?v=2vdjN8HILrc&t=56s)
+- The form contents are taken from [Jotform](https://www.jotform.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The fonts used in the site are taken from [Google Fonts](https://fonts.google.com/)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- The background images used in home, order and order response pages are from [Freepik](https://www.freepik.com/)
+- The images used for the about and product sections are taken from [Google Images ](https://www.google.com/)
 
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
