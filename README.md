@@ -69,15 +69,15 @@ This site is developed with the use of HTML and CSS with a minor coding of JavaS
 - This site is checked for any potential error in different browers and in different screen sizes. 
 - Google chrome lighthouse is used to check and generate a comprehensive report regarding the site's performance, accessibility, best practices and SEO with taking both mobile and desktop view into consideration and and all rated above 90%. 
 
-- [Lighthouse report desktop view](/lighthouse_report_desktop_view.html)
-- [Lighthouse report mobile view](/lighthouse_report_mobile_view.html)
+- [Lighthouse report desktop view](/assets/images/Lighthouse_report_desktop_view.png)
+- [Lighthouse report mobile view](/assets/images/Lighthouse_report_mobile_view.png)
 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](/W3C%20Validator.mhtml)
+  - No errors were returned when passing through the official [W3C validator](/assets/images/W3C%20Validator.png)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](/(Jigsaw)%20validator.mhtml)
+  - No errors were found when passing through the official [(Jigsaw) validator](assets/images/(Jigsaw)%20validator.png)
 
 ### Unfixed Bugs
 
@@ -96,6 +96,19 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 
 ## Credits 
+
+Thanks to Reuben Ferrante, my code institute mentor, for his guidance and insight and the constant confidence boost to help me in the right direction.
+
+The Slack community. The amount of help and support and encouragement I recieved really helped throughout the project.
+
+W3Schools for their exceptional explanations and useful examples.
+
+Coolors - Used to create my colour palette.
+
+Balsamiq - Used to build wireframes for my website.
+
+W3C Validator - A validator used to check my HTML and CSS structure and format periodically throughout the build.
+
 
 - The overall project idea and concept is taken from [Love Running Project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)
 - - Instructions on coding of response navigation bar without JavaScript are taken from [Kevin Powell Youtube Tutorial](https://www.youtube.com/watch?v=8QKOaTYvYUA/)
