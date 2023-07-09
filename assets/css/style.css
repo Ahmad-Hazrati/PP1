@@ -364,8 +364,7 @@ section {
 
 .product .product-row .product-content .orderNow a:hover {
     color: #000;
-    background-color: #faf8ff;
-    transform: scale(1.1);
+    font-weight: bolder;
 }
 
 
@@ -401,8 +400,7 @@ footer h2 {
 
 .social-links a:hover {
     color: #000;
-    transform: scale(1.1);
-    
+    transform: scale(1.1);    
 }
 
 .copyright {
