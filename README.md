@@ -77,11 +77,12 @@ This site is developed with the use of HTML and CSS with a minor coding of JavaS
 - HTML
   - No errors were returned when passing through the official ![W3C validator](/assets/images/W3C%20Validator.png)
 - CSS
-  - No errors were found when passing through the official ![(Jigsaw) validator](assets/images/(Jigsaw)%20validator.png)
+  - No errors were found when passing through the official ![(Jigsaw) validator](/assets/images/(Jigsaw)%20validator.png)
 
 ### Unfixed Bugs
 
-- The project contains no unfixed bugs. 
+- The background images were not displaying in Github live site view. The issue was fixed by using relative file paths.
+
 
 ## Deployment
 

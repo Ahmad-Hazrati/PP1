@@ -428,7 +428,7 @@ footer h2 {
 .form-section {
     clear: left;
     background-size: cover;
-    height: 1300px;
+    height: 1350px;
 }
 
 .order-form {
@@ -485,7 +485,7 @@ input#image {
 }
 
 .order-form .button {
-    margin: 5px 35px 20px 0;
+    margin: 5px 35px 16px 0;
     border-radius: 4px;
     padding: 16px 32px;
     text-align: center;
@@ -511,7 +511,7 @@ input#image {
 
 /* Media queries */
 /* for medium to large screens sizes from 950px wide and up */
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 985px) {
 
     /* header section */
     .nav-toggle-label {
@@ -520,7 +520,7 @@ input#image {
 
     header {
         display: grid;
-        grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
+        /* grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr; */
     }
 
     .logo {
