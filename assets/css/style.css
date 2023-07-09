@@ -140,6 +140,10 @@ nav a:hover {
     font-weight: bold;
 }
 
+.active {
+    font-weight: bold;
+}
+
 .nav-toggle:checked~nav {
     transform: scale(1, 1);
 }
@@ -359,8 +363,9 @@ section {
 }
 
 .product .product-row .product-content .orderNow a:hover {
-    color: #faf8ff;
-    background-color: #370F05;
+    color: #000;
+    background-color: #faf8ff;
+    transform: scale(1.1);
 }
 
 
@@ -394,6 +399,12 @@ footer h2 {
     text-decoration: none;
 }
 
+.social-links a:hover {
+    color: #000;
+    transform: scale(1.1);
+    
+}
+
 .copyright {
     width: 100%;
     padding: 20px 0;
@@ -419,7 +430,7 @@ footer h2 {
 .form-section {
     clear: left;
     background-size: cover;
-    height: 1200px;
+    height: 1300px;
 }
 
 .order-form {

@@ -1,7 +1,7 @@
 # City Cake
 
 City Cake is a site that is developed to provide ease of access to users/ customers who love fresh and delicious homemade cakes. Customers can access and check the products and place orders with few clicks. It also benefits the owner of City Cake Shop to show his/her products and target more customers and meet their requests.
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsice Mockup](/assets/images/City_cake_mockup.png)
 
 
 ### Existing Features
@@ -11,21 +11,22 @@ City Cake is a site that is developed to provide ease of access to users/ custom
   - Featured on all sections and 3 pages, the full responsive fixed navigation bar includes links to the Logo, Home page with its different sections, Order and Order response page and is identical in each page to allow for easy navigation. The navigation bar collapse like an hamburger to give the user a good experience and provide ease of access.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar desktop view](/assets/images/City_cake_nav_desktop_view.png)
+![Nav Bar mobile view](/assets/images/City_cake_nav_mobile_view.png)
 
 - __The landing page image__
 
   - The landing includes a photograph to allow the user to see exactly what kind of cakes the City Cake offers. 
   - This section introduces the user to City Cake with an eye catching animation to grab their attention.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](/assets/images/City_cake_landing.png)
 
 - __About Us Section__
 
   - The About Us section will introduce the user the speciality of City Cake and allow to see different kinds of cakes it offers. 
   - The user will see the baking style used by City Cake and encourage them to taste the homemade fresh and delicious cakes. 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![About Us](/assets/images/City_cake_about.png)
 
 - __Product section__
 
@@ -33,14 +34,14 @@ City Cake is a site that is developed to provide ease of access to users/ custom
   - This section will be updated regularly to keep the user up to date and meet their demands. 
   - This section will provide the user with a link to place order besides having the possibility in the navigation bar as well.
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Product](/assets/images/City_cake_product.png)
 
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites for City Cake. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](/assets/images/City_cake_footer.png)
 
 
 - __The Order Page__
@@ -48,7 +49,7 @@ City Cake is a site that is developed to provide ease of access to users/ custom
   - This page will allow the user to place order with City Cake. The user will provide the details of the request in a more simple and clear way by selecting the dropdown required options. Optionally, the user can also upload photos of the request and put any further remarks.
   - For data integrity each field is fitched with data types to check and control the correctness of data entered by the user.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Order](/assets/images/City_cake_form.png)
 
 This site is developed with the use of HTML and CSS with a minor coding of JavaScript for product page swiper. The site contains the full functionality front-end of a web with a better user experience.
 
