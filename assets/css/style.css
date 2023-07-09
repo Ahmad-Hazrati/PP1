@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    background: url(/assets/images/home-bg.jpg);
+    background: url(../images/home-bg.jpg);
 }
 
 p,
@@ -165,7 +165,7 @@ nav a:hover {
 .hero-image {
     height: 700px;
     width: 100%;
-    background: url(/assets/images/hero-img.jpg) no-repeat center center;
+    background: url(../images/hero-img.jpg) no-repeat center center;
     background-size: cover;
 
     /* animates zoom effect on loading page */
@@ -232,7 +232,7 @@ nav a:hover {
     width: 250px;
     float: left;
     margin-left: 30px;
-    background: url(/assets/images/mud-cake-jaffa1.jpg) no-repeat center center;
+    background: url(../images/mud-cake-jaffa1.jpg) no-repeat center center;
     background-size: cover;
     border: 1px solid #3c1321;
     border-radius: 50%;
@@ -247,7 +247,7 @@ nav a:hover {
     width: 250px;
     float: right;
     margin-right: 30px;
-    background: url(/assets/images/vanilla1.jpg) no-repeat center center;
+    background: url(../images/vanilla1.jpg) no-repeat center center;
     background-size: cover;
     border: 1px solid #3c1321;
     border-radius: 50%;
@@ -261,7 +261,7 @@ nav a:hover {
     height: 250px;
     width: 250px;
     margin: 0 auto;
-    background: url(/assets/images/mud-cake-caramel2.jpg) no-repeat center center;
+    background: url(../images/mud-cake-caramel2.jpg) no-repeat center center;
     background-size: cover;
     border: 1px solid #3c1321;
     border-radius: 50%;
