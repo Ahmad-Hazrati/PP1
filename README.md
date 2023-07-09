@@ -69,15 +69,15 @@ This site is developed with the use of HTML and CSS with a minor coding of JavaS
 - This site is checked for any potential error in different browers and in different screen sizes. 
 - Google chrome lighthouse is used to check and generate a comprehensive report regarding the site's performance, accessibility, best practices and SEO with taking both mobile and desktop view into consideration and and all rated above 90%. 
 
-- [Lighthouse report desktop view](/assets/images/Lighthouse_report_desktop_view.png)
-- [Lighthouse report mobile view](/assets/images/Lighthouse_report_mobile_view.png)
+![Lighthouse report desktop view](/assets/images/Lighthouse_report_desktop_view.png)
+![Lighthouse report mobile view](/assets/images/Lighthouse_report_mobile_view.png)
 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](/assets/images/W3C%20Validator.png)
+  - No errors were returned when passing through the official ![W3C validator](/assets/images/W3C%20Validator.png)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](assets/images/(Jigsaw)%20validator.png)
+  - No errors were found when passing through the official ![(Jigsaw) validator](assets/images/(Jigsaw)%20validator.png)
 
 ### Unfixed Bugs
 
@@ -85,35 +85,25 @@ This site is developed with the use of HTML and CSS with a minor coding of JavaS
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://ahmad-hazrati.github.io/PP1/index.html
 
 
 ## Credits 
 
-Thanks to Reuben Ferrante, my code institute mentor, for his guidance and insight and the constant confidence boost to help me in the right direction.
+- Thanks to my Code Institute mentor Mr. Aleksei Konovalov for his guidance, insight and the constant confidence boost to help me in the right direction.
 
-The Slack community. The amount of help and support and encouragement I recieved really helped throughout the project.
-
-W3Schools for their exceptional explanations and useful examples.
-
-Coolors - Used to create my colour palette.
-
-Balsamiq - Used to build wireframes for my website.
-
-W3C Validator - A validator used to check my HTML and CSS structure and format periodically throughout the build.
-
+- Thanks to Slack community for general references, support and encouragement received. 
 
 - The overall project idea and concept is taken from [Love Running Project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)
 - - Instructions on coding of response navigation bar without JavaScript are taken from [Kevin Powell Youtube Tutorial](https://www.youtube.com/watch?v=8QKOaTYvYUA/)
 - Instructions on JavaScript coding for swiper of product section are taken from [UIUX - Din Art's](https://www.youtube.com/watch?v=2vdjN8HILrc&t=56s)
 - The form contents are taken from [Jotform](https://www.jotform.com/)
+- W3C and Jigsaw Validators are used to check the HTML and CSS files for any errors.
 
 ### Content 
 
