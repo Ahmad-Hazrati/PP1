@@ -53,6 +53,12 @@ City Cake is a site that is developed to provide ease of access to users/ custom
 
 This site is developed with the use of HTML and CSS with a minor coding of JavaScript for product page swiper. The site contains the full functionality front-end of a web with a better user experience by adopting different screen sizes.
 
+- __The Order Response Page__
+
+  - This page aknowledge and confirm the user request with a thank you message. 
+
+![Order](/assets/images/City_cake_form_response.png.png)
+
 ### Features Left to Implement
 
 - As this site is static, further enhancements and features are required to interact, get and process the user data.
