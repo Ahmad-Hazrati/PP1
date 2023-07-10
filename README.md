@@ -57,7 +57,7 @@ This site is developed with the use of HTML and CSS with a minor coding of JavaS
 
   - This page aknowledge and confirm the user request with a thank you message. 
 
-![Order](/assets/images/City_cake_form_response.png.png)
+![Order](/assets/images/City_cake_form_response.png)
 
 ### Features Left to Implement
 
