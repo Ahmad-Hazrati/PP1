@@ -5,6 +5,7 @@ City Cake is a site that is developed to provide ease of access to users/ custom
 ![Responsice Mockup](/assets/docs/mockup.png)
 
 ---
+
 ## User Stories
 
 ### First Time Visitor Goals:
@@ -25,6 +26,7 @@ City Cake is a site that is developed to provide ease of access to users/ custom
 * As a Frequent User, I want to have options for the reason to contact the organization, so I can get an explicit answer to my email. 
 
 ---
+
 ## Features
 
 + ### Navbar
@@ -64,6 +66,7 @@ City Cake is a site that is developed to provide ease of access to users/ custom
     ![Home Page](/assets/docs/home_page.png)
 
 ---
+
 + #### Hero Section
 
   - Hhe landing includes a photograph to allow the user to see exactly what kind of cakes the City Cake offers. 
@@ -82,6 +85,8 @@ City Cake is a site that is developed to provide ease of access to users/ custom
 
 ![About Us](/assets/docs/about_section.png)
 
+---
+
 + #### Product Section
 
   - This section will allow the user to see exactly the types of cakes offered by City Cake for different variety of occasions. 
@@ -91,6 +96,8 @@ City Cake is a site that is developed to provide ease of access to users/ custom
 
 ![Product](/assets/docs/product_section.png)
 
+---
+
 + #### Footer
 
   - The footer section includes links to the relevant social media sites for City Cake. The links will open to a new tab to allow easy navigation for the user. 
@@ -99,6 +106,7 @@ City Cake is a site that is developed to provide ease of access to users/ custom
 
 ![Footer](/assets/docs/footer_section.png)
 
+---
 
 + ### Order Page
 
@@ -110,14 +118,40 @@ City Cake is a site that is developed to provide ease of access to users/ custom
 
 ![Order](/assets/docs/order_form.png)
 
+--- 
 
 + ### Response page
 
   - Response page appears after submitting the order form.
   - It contains a thank you with an additional bold message to the user.
    
-
 ![Order](/assets/docs/form_response.png)
+
+---
+## Technologies Used
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used as the foundation of the site.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was used to add the styles and layout of the site.
+- [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to arrange items simmetrically on the pages.
+- [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) - was used in the order form and to make "navbar" and "about" sections responsive.
+- [Balsamiq](https://balsamiq.com/) was used to make wireframes for the website.
+- [VSCode](https://code.visualstudio.com/) was used as the main tool to write and edit code.
+- [Git](https://git-scm.com/) was used for the version control of the website.
+- [GitHub](https://github.com/) was used to host the code of the website.
+
+---
+
+## Design
+
+### Color Scheme
+
+- Magnolia (#FAF8FF) color is used as a background color in the heading section and as a text color in the product section of website pages. The color resembles vanilla and has a perfect match with the rest elements and contents of the page. 
+
+- Black (#000) color is used as text color for headings, paragraphs, and hover effects of website pages. It creates a good contrast with other elements of the page and add more readibility to the text.
+
+- Seal Brown (#370F05) color is used as a background color in the product section which perfectly matches with the Magnolia text color. It is also used as the main color of social media links in the footer section and paragraphs in the form section. The color resembles chocolate and add more value to the user experience.
+
+--- 
 
 ### Features Left to Implement
 
