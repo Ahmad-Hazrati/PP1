@@ -1,25 +1,77 @@
 # City Cake
 
 City Cake is a site that is developed to provide ease of access to users/ customers who love fresh and delicious homemade cakes. Customers can access and check the products and place orders with few clicks. It also benefits the owner of City Cake Shop to show his/her products and target more customers and meet their requests.
-![Responsice Mockup](/assets/images/City_cake_mockup.png)
 
+![Responsice Mockup](/assets/docs/mockup.png)
 
-### Existing Features
+---
+## User Stories
 
-- __Navigation Bar__
+### First Time Visitor Goals:
 
-  - Featured on all sections and 3 pages, the full responsive fixed navigation bar includes links to the Logo, Home page with its different sections, Order and Order response page and is identical in each page to allow for easy navigation. The navigation bar collapse like an hamburger to give the user a good experience and provide ease of access for mobile user.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+* As a First Time Visitor, I want to easily understand the main purpose of the site, so I can learn more about the organization.
+* As a First Time Visitor, I want to be able to easily navigate through the website, so I can find the content.
+* As a First Time Visitor, I want to see the testimonials, so I can see whether the organization is trustworthy.
 
-![Nav Bar desktop view](/assets/images/City_cake_nav_desktop_view.png)
-![Nav Bar mobile view](/assets/images/City_cake_nav_mobile_view.png)
+### Returning VisitorGoals:
 
-- __The landing page image__
+* As a Returning Visitor, I want to see various cakes, so that I can pick from.
+* As a Returning Visitor, I want to see information about different cakes, so that I can learn about each cake and make a prudent decision.
+* As a Returning Visitor, I want to find a way to get in contact with the organization, so that I can ask additional questions or order a particular cake.
+* As a Returning Visitor, I want to find community links, so that I can learn more about the organization.
 
-  - The landing includes a photograph to allow the user to see exactly what kind of cakes the City Cake offers. 
+### Frequent Visitor Goals:
+* As a Frequent User, I want to check whether there are any changes with available cakes, so I can make a choice which cake to order.
+* As a Frequent User, I want to have options for the reason to contact the organization, so I can get an explicit answer to my email. 
+
+---
+## Features
+
++ ### Navbar
+
++ ##### Navigation
+    - Positioned at the top of the page.
+    - Contains logo of the company on the left side.
+    - Contains navigation links on the right side:
+        * HOME - leads to the home page where users can learn about the City Cake Shop.
+        * About - leads to about section where users can learn about the especiality of City Cake Shop.
+        * Product - leads to the product section where users can see available cakes in the City Cake Shop.
+        * Order - leads to the order page where users can place order with the City Cake Shop.
+        * CONTACT - leads to the contact section where users can get in touch with the company through socail media links.
+    - The links have animated hover effect.
+    - The navigation is clear and easy to understand for the user.
+    ![NavBar desktop](/assets/docs/navbar_desktop.png)
+
+    - The navigation bar is responsive:
+        * On tablet and mobile: navigation bar collapse like an hamburger on the right side and logo shifts to the center. 
+        ![NavBar Tablet and Mobile](/assets/docs/navbar_tablet%26mobile_close.png)
+
+        - When the hamburger menu is clicked, there is dropdown menu with the links in the same order.
+            ![NavBar Table and Mobile Open](/assets/docs/navbar_tablet%26mobile_open.png)
+
+---
+
++ ### Home Page
+
+    - Represents: 
+
+        * the main idea of the company.
+        * Emphasizes the strong points of the company.
+        * Shows product of the company.
+        * Invites to place order with the company.
+        * Provides social media links to contact with the company.
+
+    ![Home Page](/assets/docs/home_page.png)
+
+---
++ #### Hero Section
+
+  - Hhe landing includes a photograph to allow the user to see exactly what kind of cakes the City Cake offers. 
   - This section introduces the user to City Cake with an eye catching animation to grab their attention.
+    
+    ![Hero Section](/assets/docs/hero_image.png)
 
-![Landing Page](/assets/images/City_cake_landing.png)
+---
 
 - __About Us Section__
 
