@@ -147,11 +147,52 @@ City Cake is a site that is developed to provide ease of access to users/ custom
 
 - Magnolia (#FAF8FF) color is used as a background color in the heading section and as a text color in the product section of website pages. The color resembles vanilla and has a perfect match with the rest elements and contents of the page. 
 
+![Magnolia](/assets/docs/magnolia_color.png)
+
 - Black (#000) color is used as text color for headings, paragraphs, and hover effects of website pages. It creates a good contrast with other elements of the page and add more readibility to the text.
+
+![Black](/assets/docs/black_color.png)
 
 - Seal Brown (#370F05) color is used as a background color in the product section which perfectly matches with the Magnolia text color. It is also used as the main color of social media links in the footer section and paragraphs in the form section. The color resembles chocolate and add more value to the user experience.
 
+![Seal Brown](/assets/docs/seal_brown_color.png)
+
 --- 
+
+### Typography
+
+![Main Font](/assets/docs/primary_font.png)
+
+- Ubuntu Google Font was used as the main font of the website in order to increase readability of the content on the pages.
+
+![Accent Font](/assets/docs/accent_font.png)
+
+- Caprasimo Google Font was used to attract viewers' attention to the company's logo and different sections' headings. It is used to make an accent on the strong points of the company, and to incentivize visitors to contact "City Cake".
+
+### Wireframes
+
+#### Mobile devices
+
+- [Home Page. Mobile Screen](/assets/docs/mobile_home_page.png)
+- [Order Page. Mobile Screen](/assets/docs/mobile_order_page.png)
+- [Response Page. Mobile Screen](/assets/docs/mobile_order_response_page.png)
+
+
+#### Tablets
+
+- [Home Page. Tablet Screen](/assets/docs/tablet_home_page.png)
+- [Order Page. Tablet Screen](/assets/docs/tablet_order_page.png)
+- [Response Page. Tablet Screen](/assets/docs/table_order_response_page.png)
+
+#### Desktop
+
+- [Home Page. Desktop Screen](/assets/docs/desktop_home_page.png)
+- [Order Page. Desktop Screen](/assets/docs/desktop_order_page.png)
+- [Response Page. Desktop Screen](/assets/docs/desktop_order_response_page.png)
+
+
+---
+
 
 ### Features Left to Implement
 
