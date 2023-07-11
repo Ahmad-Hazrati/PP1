@@ -73,43 +73,51 @@ City Cake is a site that is developed to provide ease of access to users/ custom
 
 ---
 
-- __About Us Section__
++ #### About Us Section
 
-  - The About Us section will introduce the user the speciality of City Cake and allow to see different kinds of cakes it offers. 
-  - The user will see the baking style used by City Cake and encourage them to taste the homemade fresh and delicious cakes. 
+  - The About Us section will introduce the speciality of City Cake to the users. 
+   - The user will see the baking style used by City Cake and encourage them to taste the homemade fresh and delicious cakes. 
+  - It has 3 eye catching images to grasp the attention of the user and allow them to see different kinds of cakes it offers. 
+  - This section is responsive to all common screen sizes.
 
-![About Us](/assets/images/City_cake_about.png)
+![About Us](/assets/docs/about_section.png)
 
-- __Product section__
++ #### Product Section
 
   - This section will allow the user to see exactly the types of cakes offered by City Cake for different variety of occasions. 
   - This section will be updated regularly to keep the user up to date and meet their demands. 
-  - This section will provide the user with an easy link to place order besides having the possibility in the navigation bar as well.
+  - This section has a button that leads user to the order page to place order. 
+  - This section is responsive to all common screen sizes.
 
-![Product](/assets/images/City_cake_product.png)
+![Product](/assets/docs/product_section.png)
 
-- __The Footer__ 
++ #### Footer
 
   - The footer section includes links to the relevant social media sites for City Cake. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media.
+  - This section is responsive to all common screen sizes.
 
-![Footer](/assets/images/City_cake_footer.png)
+![Footer](/assets/docs/footer_section.png)
 
 
-- __The Order Page__
++ ### Order Page
 
-  - This page will allow the user to place order with City Cake. The user will provide the details of the request in a more simple and clear way by selecting the dropdown required options. Optionally, the user can also upload photos of the request and put any further remarks.
+  - This page will allow the user to place order with City Cake. The user will provide the details of the request in a more simple and clear way by selecting the dropdown required options. 
+  - It has a button Optionally, the user can also upload photos of the request and put any further remarks.
   - For data integrity each field is fitched with data types to check and control the correctness of data entered by the user.
+  - This section is responsive to all common screen sizes.
+  - It has a footer identical to the home page's footer.
 
-![Order](/assets/images/City_cake_form.png)
+![Order](/assets/docs/order_form.png)
 
-This site is developed with the use of HTML and CSS with a minor coding of JavaScript for product page swiper. The site contains the full functionality front-end of a web with a better user experience by adopting different screen sizes.
 
-- __The Order Response Page__
++ ### Response page
 
-  - This page aknowledge and confirm the user request with a thank you message. 
+  - Response page appears after submitting the order form.
+  - It contains a thank you with an additional bold message to the user.
+   
 
-![Order](/assets/images/City_cake_form_response.png)
+![Order](/assets/docs/form_response.png)
 
 ### Features Left to Implement
 
