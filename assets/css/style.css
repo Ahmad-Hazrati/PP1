@@ -614,7 +614,7 @@ input#image {
     }
 
     /* product section */
-   /* .product .product-row .product-content p {
+   .product .product-row .product-content p {
         height: 150px;
         line-height: 1;
         color: #faf8ff;
@@ -623,8 +623,8 @@ input#image {
     .product .product-row .product-content .orderNow {
         height: 50px;
         margin: 16px auto 0px auto;
-    }
-}*/
+    }*/
+}
 
 /* For medium screen sizes from 1050px wide and down */
 @media screen and (max-width: 1050px) {
