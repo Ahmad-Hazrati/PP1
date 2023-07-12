@@ -221,7 +221,9 @@ City Cake is a site that is developed to provide ease of access to users/ custom
 
 ### Unfixed Bugs 
 
-- The lighthouse report for response page accessibility scored 88% due to missing label text for input in navigation bar section. The issue was not solved after many attempts.
+- The lighthouse report for response page accessibility scored 88% due to missing label text for input in navigation bar section. The issue was not solved after many attempts, even with the tutor. The issue requires more time and in depth check which can be carried later on.
+
+---
 
 ## Deployment
 

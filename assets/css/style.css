@@ -84,7 +84,7 @@ header {
     height: 100%;
     display: flex;
     align-items: center;
-} 
+}
 
 
 .nav-toggle-label span,
@@ -422,7 +422,7 @@ footer h2 {
 }
 
 .social-links li:hover {
-    transform: scale(1.5);    
+    transform: scale(1.5);
 }
 
 .copyright {
@@ -616,7 +616,7 @@ input#image {
     }
 
     /* product section */
-   .product .product-row .product-content p {
+    .product .product-row .product-content p {
         height: 150px;
         line-height: 1;
         color: #faf8ff;
@@ -630,6 +630,7 @@ input#image {
 
 /* For medium screen sizes from 1050px wide and down */
 @media screen and (max-width: 1050px) {
+
     /* about section */
     .about .about-box {
         min-width: 45%;
@@ -666,6 +667,7 @@ input#image {
 
 /* For medium screen sizes from 780px wide and down */
 @media screen and (max-width: 780px) {
+
     /* hero image section */
     .hero-image {
         display: none;
@@ -674,17 +676,27 @@ input#image {
 
 /* For small screen sizes from 380px wide and down */
 @media screen and (max-width: 380px) {
+
     /* logo */
     h1 {
         font-size: 150%;
     }
-    .about h2, .heading h2, footer h2, .order-form h2 {
+
+    .about h2,
+    .heading h2,
+    footer h2,
+    .order-form h2 {
         font-size: 120%;
     }
+
     .product .product-row .product-content h3 {
         font-size: 100%;
     }
-    p, li, a, button {
+
+    p,
+    li,
+    a,
+    button {
         font-size: 16px;
     }
 }
