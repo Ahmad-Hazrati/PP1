@@ -171,6 +171,8 @@ City Cake is a site that is developed to provide ease of access to users/ custom
 
 ### Wireframes
 
+-Wireframes is used to plan and sketch the website. 
+
 #### Mobile devices
 
 - [Home Page. Mobile Screen](/assets/docs/mobile_home_page.png)
@@ -193,32 +195,57 @@ City Cake is a site that is developed to provide ease of access to users/ custom
 
 ---
 
-
-### Features Left to Implement
-
-- As this site is static, further enhancements and features are required to interact, get and process the user data.
-- Further features to implement are:
-  - Include the product ingredients and price
-  - Filtering options
-  - Add shopping cart
-  - Add review page
-  - Store the user data in a database
-  - Secure credit card payment process
-
 ## Testing 
 
 - This site is checked for any potential error in different browers and in different screen sizes. 
 - Google chrome lighthouse is used to check and generate a comprehensive report regarding the site's performance, accessibility, best practices and SEO with taking both mobile and desktop view into consideration and and all rated above 90%. 
 
-![Lighthouse report desktop view](/assets/images/Lighthouse_report_desktop_view.png)
-![Lighthouse report mobile view](/assets/images/Lighthouse_report_mobile_view.png)
+![Home Page. Lighthouse Report](/assets/images/Lighthouse_report_desktop_view.png)
+![Order Page. Lighthouse Report](/assets/images/Lighthouse_report_mobile_view.png)
+![Response Page. Lighthouse Report](/assets/images/Lighthouse_report_mobile_view.png)
 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official ![W3C validator](/assets/images/W3C%20Validator.png)
+  - No errors were returned when passing through the official 
+  ![W3C validator index.html](/assets/docs/w3c_validator_index_html.png)
+  ![W3C validator Ororder.html](/assets/docs/w3c_validator_order_html.png)
+  ![W3C validator response.html](/assets/docs/w3c_validator_response_html.png)
+
 - CSS
-  - No errors were found when passing through the official ![(Jigsaw) validator](/assets/images/(Jigsaw)%20validator.png)
+  - No errors were found when passing through the official 
+  ![(Jigsaw) validator](/assets/docs/jigsaw_validator_style_css.png)
+
+---
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the [GitHub repository](https://github.com/Ahmad-Hazrati/PP1), navigate to the Settings tab 
+  - From the source section drop-down menu, select the **Main** Branch, then click "Save".
+  - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found [here](https://ahmad-hazrati.github.io/PP1/)
+
+## Local Deployment
+
+In order to make a local copy of this project, you can clone it.
+In your IDE Terminal, type the following command to clone my repository:
+
+- `git clone https://github.com/IuliiaKonovalova/animal_shelter.git`
+
+- Alternatively, if you use Gitpod, you can [click here](https://gitpod.io/#https://github.com/IuliiaKonovalova/animal_shelter), which will start the Gitpod workspace for you.
+
+---
+
+## Future improvements
+- add favicon with [Favicon Generator. For real.](https://realfavicongenerator.net/);
+- add custom 404 page;
+- add accessability report with [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/);
+- improve the quality of the commit messages (I am aware that some of them are not very clear and not meeting the standards and will improve them in the future);
+- add fully functional contact form.
+
+---
 
 ### Unfixed Bugs
 
