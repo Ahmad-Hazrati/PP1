@@ -197,11 +197,13 @@ City Cake is a site that is developed to provide ease of access to users/ custom
 ## Testing 
 
 - This site is checked for any potential error in different browers and in different screen sizes. 
-- Google chrome lighthouse is used to check and generate a comprehensive report regarding the site's performance, accessibility, best practices and SEO with taking both mobile and desktop view into consideration and and all rated above 90%. 
+- Google chrome lighthouse is used to check and generate a comprehensive report regarding the site's performance, accessibility, best practices and SEO with taking both mobile and desktop view into consideration.
 
 ![Home Page. Lighthouse Report](/assets/images/readme/lighthouse_report_home_page.png)
 ![Order Page. Lighthouse Report](/assets/images/readme/lighthouse_report_order_page.png)
 ![Response Page. Lighthouse Report](/assets/images/readme/lighthouse_report_response_page.png)
+
+---
 
 ### Validator Testing 
 
@@ -217,6 +219,10 @@ City Cake is a site that is developed to provide ease of access to users/ custom
 
 ---
 
+### Unfixed Bugs 
+
+- The lighthouse report for response page accessibility scored 88% due to missing label text for input in navigation bar section. The issue was not solved after many attempts.
+
 ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
@@ -225,6 +231,8 @@ City Cake is a site that is developed to provide ease of access to users/ custom
   - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found [here](https://ahmad-hazrati.github.io/PP1/)
+
+---
 
 ## Local Deployment
 
@@ -250,16 +258,6 @@ In your IDE Terminal, type the following command to clone my repository:
   * improve the quality of the commit messages (I am aware that some of them are not very clear and not meeting the standards and will improve them in the future).
 
 ---
-
-## Deployment
-
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-
-The live link can be found here - https://ahmad-hazrati.github.io/PP1/index.html
-
 
 ## Credits 
 
