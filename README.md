@@ -2,7 +2,7 @@
 
 City Cake is a site that is developed to provide ease of access to users/ customers who love fresh and delicious homemade cakes. Customers can access and check the products and place orders with few clicks. It also benefits the owner of City Cake Shop to show his/her products and target more customers and meet their requests.
 
-![Responsice Mockup](/assets/docs/mockup.png)
+![Responsice Mockup](/assets/images/readme/mockup.png)
 
 ---
 
@@ -42,14 +42,14 @@ City Cake is a site that is developed to provide ease of access to users/ custom
         * CONTACT - leads to the contact section where users can get in touch with the company through socail media links.
     - The links have animated hover effect.
     - The navigation is clear and easy to understand for the user.
-    ![NavBar desktop](/assets/docs/navbar_desktop.png)
+    ![NavBar desktop](/assets/images/readme/navbar_desktop.png)
 
     - The navigation bar is responsive:
         * On tablet and mobile: navigation bar collapse like an hamburger on the right side and logo shifts to the center. 
-        ![NavBar Tablet and Mobile](/assets/docs/navbar_tablet%26mobile_close.png)
+        ![NavBar Tablet and Mobile](/assets/images/readme/navbar_tablet%26mobile_close.png)
 
         - When the hamburger menu is clicked, there is dropdown menu with the links in the same order.
-            ![NavBar Table and Mobile Open](/assets/docs/navbar_tablet%26mobile_open.png)
+            ![NavBar Table and Mobile Open](/assets/images/readme/navbar_tablet%26mobile_open.png)
 
 ---
 
@@ -63,7 +63,7 @@ City Cake is a site that is developed to provide ease of access to users/ custom
         * Invites to place order with the company.
         * Provides social media links to contact with the company.
 
-    ![Home Page](/assets/docs/home_page.png)
+    ![Home Page](/assets/images/readme/home_page.png)
 
 ---
 
@@ -72,7 +72,7 @@ City Cake is a site that is developed to provide ease of access to users/ custom
   - The landing includes a photograph to allow the user to see exactly what kind of cakes the City Cake offers. 
   - This section introduces the user to City Cake with an eye catching animation to grab their attention.
     
-    ![Hero Section](/assets/docs/hero_image.png)
+    ![Hero Section](/assets/images/readme/hero_image.png)
 
 ---
 
@@ -83,7 +83,7 @@ City Cake is a site that is developed to provide ease of access to users/ custom
   - It has 3 eye catching images to grasp the attention of the user and allow them to see different kinds of cakes it offers. 
   - This section is responsive to all common screen sizes.
 
-![About Us](/assets/docs/about_section.png)
+![About Us](/assets/images/readme/about_section.png)
 
 ---
 
@@ -94,7 +94,7 @@ City Cake is a site that is developed to provide ease of access to users/ custom
   - This section has a button that leads user to the order page to place order. 
   - This section is responsive to all common screen sizes.
 
-![Product](/assets/docs/product_section.png)
+![Product](/assets/images/readme/product_section.png)
 
 ---
 
@@ -104,7 +104,7 @@ City Cake is a site that is developed to provide ease of access to users/ custom
   - The footer is valuable to the user as it encourages them to keep connected via social media.
   - This section is responsive to all common screen sizes.
 
-![Footer](/assets/docs/footer_section.png)
+![Footer](/assets/images/readme/footer_section.png)
 
 ---
 
@@ -116,7 +116,7 @@ City Cake is a site that is developed to provide ease of access to users/ custom
   - This section is responsive to all common screen sizes.
   - It has a footer identical to the home page's footer.
 
-![Order](/assets/docs/order_form.png)
+![Order](/assets/images/readme/order_form.png)
 
 --- 
 
@@ -125,7 +125,7 @@ City Cake is a site that is developed to provide ease of access to users/ custom
   - Response page appears after submitting the order form.
   - It contains a thank you with an additional bold message to the user.
    
-![Order](/assets/docs/form_response.png)
+![Order](/assets/images/readme/form_response.png)
 
 ---
 ## Technologies Used
@@ -147,25 +147,25 @@ City Cake is a site that is developed to provide ease of access to users/ custom
 
 - Magnolia (#FAF8FF) color is used as a background color in the heading section and as a text color in the product section of website pages. The color resembles vanilla and has a perfect match with the rest elements and contents of the page. 
 
-![Magnolia](/assets/docs/magnolia_color.png)
+![Magnolia](/assets/images/readme/magnolia_color.png)
 
 - Black (#000) color is used as text color for headings, paragraphs, and hover effects of website pages. It creates a good contrast with other elements of the page and add more readibility to the text.
 
-![Black](/assets/docs/black_color.png)
+![Black](/assets/images/readme/black_color.png)
 
 - Seal Brown (#370F05) color is used as a background color in the product section which perfectly matches with the Magnolia text color. It is also used as the main color of social media links in the footer section and paragraphs in the form section. The color resembles chocolate and add more value to the user experience.
 
-![Seal Brown](/assets/docs/seal_brown_color.png)
+![Seal Brown](/assets/images/readme/seal_brown_color.png)
 
 --- 
 
 ### Typography
 
-![Main Font](/assets/docs/primary_font.png)
+![Main Font](/assets/images/readme/primary_font.png)
 
 - Ubuntu Google Font was used as the main font of the website in order to increase readability of the content on the pages.
 
-![Accent Font](/assets/docs/accent_font.png)
+![Accent Font](/assets/images/readme/accent_font.png)
 
 - Caprasimo Google Font was used to attract viewers' attention to the company's logo and different sections' headings. It is used to make an accent on the strong points of the company, and to incentivize visitors to contact "City Cake".
 
@@ -175,23 +175,22 @@ City Cake is a site that is developed to provide ease of access to users/ custom
 
 #### Mobile devices
 
-- [Home Page. Mobile Screen](/assets/docs/mobile_home_page.png)
-- [Order Page. Mobile Screen](/assets/docs/mobile_order_page.png)
-- [Response Page. Mobile Screen](/assets/docs/mobile_order_response_page.png)
+- [Home Page. Mobile Screen](/assets/images/readme/mobile_home_page.png)
+- [Order Page. Mobile Screen](/assets/images/readme/mobile_order_page.png)
+- [Response Page. Mobile Screen](/assets/images/readme/mobile_order_response_page.png)
 
 
 #### Tablets
 
-- [Home Page. Tablet Screen](/assets/docs/tablet_home_page.png)
-- [Order Page. Tablet Screen](/assets/docs/tablet_order_page.png)
-- [Response Page. Tablet Screen](/assets/docs/table_order_response_page.png)
+- [Home Page. Tablet Screen](/assets/images/readme/tablet_home_page.png)
+- [Order Page. Tablet Screen](/assets/images/readme/tablet_order_page.png)
+- [Response Page. Tablet Screen](/assets/images/readme/table_order_response_page.png)
 
 #### Desktop
 
-- [Home Page. Desktop Screen](/assets/docs/desktop_home_page.png)
-- [Order Page. Desktop Screen](/assets/docs/desktop_order_page.png)
-- [Response Page. Desktop Screen](/assets/docs/desktop_order_response_page.png)
-
+- [Home Page. Desktop Screen](/assets/images/readme/desktop_home_page.png)
+- [Order Page. Desktop Screen](/assets/images/readme/desktop_order_page.png)
+- [Response Page. Desktop Screen](/assets/images/readme/desktop_order_response_page.png)
 
 ---
 
@@ -200,21 +199,21 @@ City Cake is a site that is developed to provide ease of access to users/ custom
 - This site is checked for any potential error in different browers and in different screen sizes. 
 - Google chrome lighthouse is used to check and generate a comprehensive report regarding the site's performance, accessibility, best practices and SEO with taking both mobile and desktop view into consideration and and all rated above 90%. 
 
-![Home Page. Lighthouse Report](/assets/docs/lighthouse_report_home_page.png)
-![Order Page. Lighthouse Report](/assets/docs/lighthouse_report_order_page.png)
-![Response Page. Lighthouse Report](/assets/docs/lighthouse_report_response_page.png)
+![Home Page. Lighthouse Report](/assets/images/readme/lighthouse_report_home_page.png)
+![Order Page. Lighthouse Report](/assets/images/readme/lighthouse_report_order_page.png)
+![Response Page. Lighthouse Report](/assets/images/readme/lighthouse_report_response_page.png)
 
 ### Validator Testing 
 
 - HTML
   - No errors were returned when passing through the official 
-  ![W3C validator index.html](/assets/docs/w3c_validator_index_html.png)
-  ![W3C validator Ororder.html](/assets/docs/w3c_validator_order_html.png)
-  ![W3C validator response.html](/assets/docs/w3c_validator_response_html.png)
+  ![W3C validator index.html](/assets/images/readme/w3c_validator_index_html.png)
+  ![W3C validator Ororder.html](/assets/images/readme/w3c_validator_order_html.png)
+  ![W3C validator response.html](/assets/images/readme/w3c_validator_response_html.png)
 
 - CSS
   - No errors were found when passing through the official 
-  ![(Jigsaw) validator](/assets/docs/jigsaw_validator_style_css.png)
+  ![(Jigsaw) validator](/assets/images/readme/jigsaw_validator_style_css.png)
 
 ---
 
