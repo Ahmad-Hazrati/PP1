@@ -241,7 +241,9 @@ The live link can be found [here](https://ahmad-hazrati.github.io/PP1/)
 In order to make a local copy of this project, you can clone it.
 In your IDE Terminal, type the following command to clone my repository:
 
-- `git clone https://github.com/Ahmad-Hazrati/PP1.git
+- `git clone https://github.com/Ahmad-Hazrati/PP1`
+
+- Alternatively, if you use Gitpod, you can [click here](https://ahmadhazrati-pp1-j92n8vyb3hx.ws-eu101.gitpod.io/), which will start the Gitpod workspace for you.
 
 ---
 
